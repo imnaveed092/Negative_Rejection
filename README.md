@@ -1,5 +1,5 @@
 # Negative_Rejection
-Custome Evaluation of sentence / LLm Response , Based on Sementic Similarity between Ground truth and Response
+
 The Negative Rejection Metric is a custom evaluation metric designed to quantify how well a generated response captures the meaning of the ground truth (reference) response. It operates by measuring the similarity between the semantic embeddings of the generated and true responses and determining how often the generated response fails to capture the essential meaning of the true response.
 How the Metric Works
 The metric compares each generated response with its corresponding true response using a similarity threshold. If the similarity score is below this threshold, the generated response is considered to have "rejected" the true meaning, i.e., it failed to capture the essence of the true response.
