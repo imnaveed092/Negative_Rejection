@@ -6,7 +6,7 @@ The metric compares each generated response with its corresponding true response
 The metric computes the Negative Rejection Rate (NRR) as the proportion of responses where the generated text did not meet the similarity criteria compared to the total number of responses evaluated.
 Steps Involved:
 
-###1.Tokenization and Encoding:
+##1.Tokenization and Encoding:
   Both the ground truth and generated responses are tokenized and encoded using a pre-trained language model such as Sentence Transformers or any transformer-based model.
   
 ###2.Embedding Generation:
